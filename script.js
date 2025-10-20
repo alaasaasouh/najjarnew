@@ -127,7 +127,7 @@ const products = [
         type: 'Architectural',
         description: 'Architectural glass thermally or mechanically shaped to create a gentle or pronounced curve. Used for unique design elements, facades, and interiors.',
         features: ['Unique Architectural Shapes', 'Thermal or Mechanical Shaping', 'Design Flexibility'],
-        image: 'assets/curve.png'
+        image: 'assets/curves.png'
     },
     // Aluminum and Steel Products
     { 
@@ -136,7 +136,7 @@ const products = [
         type: 'Facade',
         description: 'Advanced aluminum facade systems including Stick and Unitized systems. Provides structural integrity, weather resistance, and thermal performance for large buildings.',
         features: ['Stick systems', 'Unitized systems'],
-        image: 'assets/image-006.png'
+        image: 'assets/curtain.jpg'
     },
     { 
         name: 'Window Systems', 
@@ -144,7 +144,7 @@ const products = [
         type: 'Openings',
         description: 'Comprehensive range of aluminum window solutions: Casement, Sliding, Tilt & Turn, and Minimalist systems, offering superior insulation and operation.',
         features: ['Casement windows', 'Sliding windows', 'Tilt & turn windows', 'Minimalist System'],
-        image: 'assets/image-006.png'
+        image: 'assets/window.jpg'
     },
     { 
         name: 'Door Systems', 
@@ -152,7 +152,7 @@ const products = [
         type: 'Openings',
         description: 'Aluminum door solutions including Swing, Sliding, Automatic, and Minimalist doors, designed for high traffic and aesthetic appeal.',
         features: ['Swing doors', 'Sliding doors', 'Automatic doors', 'Minimalist doors'],
-        image: 'assets/image-006.png'
+        image: 'assets/siding.jpg'
     },
     { 
         name: 'Partition & Interior Systems', 
@@ -168,7 +168,7 @@ const products = [
         type: 'Overhead',
         description: 'Durable and weather-resistant aluminum systems for roofing and skylights, providing natural light and structural integrity.',
         features: ['Weather-Resistant', 'Natural Light', 'Structural Integrity'],
-        image: 'assets/image-006.png'
+        image: 'assets/sky.jpg'
     },
     { 
         name: 'Specialized Aluminum Systems', 
