@@ -2,394 +2,268 @@
 const products = [
     // Glass Products
     { 
-        name: 'Clear and Tinted Mirror', 
+        name: ' Mirror', 
         location: 'Glass Products',
-        type: 'Decorative',
-        description: 'High-quality mirrors available in clear and various tinted colors. Used for interior design, vanity areas, and decorative wall features.',
-        features: ['Clear and Tinted Options', 'High Reflectivity', 'Custom Sizing'],
-        image: 'assets/clearandtinted.jpg'
+        type: 'Decorative – Customized',
+        description: 'High-quality mirrors available in clear and various tinted colors (bronze, grey, clear). Used for interior design, vanity areas, and decorative wall features. Available thickness: 4mm to 12mm.',
+        features: ['Colors: Bronze, Grey, Clear', 'Thickness: 4mm – 12mm', 'High Reflectivity', 'Custom Sizing', 'Can Be Tempered or Laminated'],
+        image: 'assets/mirrr.jpg'
     },
     { 
         name: 'Vitrail', 
         location: 'Glass Products',
-        type: 'Artistic',
-        description: 'Traditional or modern stained glass art, custom-designed for decorative windows, doors, and partitions.',
-        features: ['Custom Artistic Designs', 'Colored Glass', 'Light Diffusion'],
+        type: 'Artistic – Customized',
+        description: 'Traditional or modern stained glass art, custom-designed for decorative windows, doors, and partitions. Includes Italian stainless steel accessories and available in sliding, fixed, corner, or hinged systems.',
+        features: ['Custom Artistic Designs', 'Italian Stainless Steel Accessories', 'System Types: Sliding, Fixed, Corner, Hinged', 'Colored Glass Options', 'Light Diffusion'],
         image: 'assets/vitrail.jpg'
     },
     { 
         name: 'UV Printing', 
         location: 'Glass Products',
-        type: 'Customization',
-        description: 'High-resolution UV printing directly onto glass surfaces for custom graphics, logos, and photographic images with durable, vibrant colors.',
-        features: ['High-Resolution Graphics', 'Durable and Vibrant Colors', 'Custom Logos and Images'],
-        image: 'assets/uv.png'
+        type: 'Customization – Customized',
+        description: 'High-resolution UV printing directly onto glass surfaces for custom graphics, logos, and photographic images. Provides durable, vibrant colors and smooth finishes with Italian stainless steel accessories.',
+        features: ['High-Resolution Graphics', 'Durable UV-Resistant Colors', 'Custom Logos and Images', 'Italian Stainless Steel Accessories', 'Available in Custom Thickness'],
+        image: 'assets/uvvvv.png'
     },
     { 
         name: 'Shower Tray', 
         location: 'Glass Products',
-        type: 'Bathroom',
-        description: 'Custom-designed glass shower trays and enclosures, offering a modern, seamless, and easy-to-clean solution for bathrooms.',
-        features: ['Custom Enclosures', 'Seamless Design', 'Easy to Clean'],
+        type: 'Bathroom – Customized',
+        description: 'Custom-designed glass shower systems and trays, including UV-printed and clear tempered glass. Equipped with Italian stainless steel accessories and minimalist aluminum frames, available in sliding, fixed, corner, and hinged systems.',
+        features: ['Italian Stainless Steel Accessories', 'System Types: Sliding, Fixed, Corner, Hinged', 'Thickness: 6mm – 19mm', 'Custom Colors: Bronze, Clear, Green, Blue', 'Tempered Safety Glass'],
         image: 'assets/shower.jpg'
     },
     { 
         name: 'Glass Tables', 
         location: 'Glass Products',
-        type: 'Furniture',
-        description: 'Custom-fabricated glass tabletops and furniture, including tempered and laminated options for safety and durability.',
-        features: ['Custom Tabletops', 'Tempered Safety Glass', 'Modern Furniture Design'],
+        type: 'Furniture – Customized',
+        description: 'Custom-fabricated glass tabletops and furniture, including tempered and laminated options for safety and durability. Available in clear, bronze, green, and blue with thickness from 6mm to 19mm.',
+        features: ['Thickness: 6mm – 19mm', 'Custom Color Options', 'Tempered or Laminated', 'Modern Furniture Design', 'Durable for Everyday Use'],
         image: 'assets/table.jpg'
     },
     { 
         name: 'Float Glass', 
         location: 'Glass Products',
-        type: 'Basic',
-        description: 'Float glass is the most widely used type of glass in modern glazing systems. It is produced through the float process,.',
-        features: ['High Optical Clarity', 'Consistent Thickness', 'Versatile Base Material', 'Thickness: 4mm to 19mm'],
+        type: 'Basic – Customized',
+        description: 'Float glass is the most widely used type of glass in modern glazing systems. It provides high optical clarity and consistent thickness, commonly used for windows, doors, and roofs.',
+        features: ['Thickness: 4mm – 19mm', 'High Optical Clarity', 'Consistent Thickness', 'Versatile Base Material', 'Suitable for Windows, Doors, and Roofs'],
         image: 'assets/floatglass.jpg'
     },
     { 
         name: 'Tinted Glass', 
         location: 'Glass Products',
-        type: 'Solar Control',
-        description: 'High-quality glass with added metal oxides for a distinctive tinted appearance (grey, bronze, green, blue). Reduces solar heat and glare, improving energy efficiency.',
-        features: ['Reduces Solar Heat', 'Glare Control', 'Aesthetic Appeal'],
+        type: 'Solar Control – Customized',
+        description: 'High-quality tinted glass with added metal oxides for a distinctive appearance in grey, bronze, green, and blue. Reduces solar heat and glare. Available thickness: 4mm to 12mm.',
+        features: ['Colors: Grey, Bronze, Green, Blue', 'Thickness: 4mm – 12mm', 'Reduces Solar Heat', 'Glare Control', 'Aesthetic Appearance'],
         image: 'assets/tinedglass.jpg'
     },
     { 
         name: 'Ultra Clear Glass (Crystal)', 
         location: 'Glass Products',
-        type: 'Premium',
-        description: 'Ultra clear float glass, also known as low-iron glass,',
-        features: ['Exceptional Transparency', 'Color Neutrality', 'Superior Light Transmission', 'Thickness: 4mm to 19mm'],
+        type: 'Premium – Customized',
+        description: 'Ultra clear float glass (low-iron) with exceptional transparency and color neutrality. Used for premium facades, showcases, and modern interiors.',
+        features: ['Thickness: 4mm – 19mm', 'Exceptional Transparency', 'Color Neutrality', 'Superior Light Transmission'],
         image: 'assets/ultraclear.png'
     },
     { 
         name: 'Reflective Glass', 
         location: 'Glass Products',
-        type: 'Solar Control / Privacy',
-        description: 'Coated with a thin layer of metallic oxide for a mirror-like appearance. Reduces solar heat gain and glare, and provides daytime privacy.',
-        features: ['Mirror-like Reflection', 'Daytime Privacy', 'Energy Efficient'],
-        image: 'assets/reflective.jpg.png'
+        type: 'Solar Control / Privacy – Customized',
+        description: 'Reflective glass coated with a metallic oxide layer for a mirror-like effect, offering solar heat reduction, privacy, and modern aesthetics. Colors include bronze, grey, green, and blue, with thickness from 4mm to 12mm.',
+        features: ['Colors: Bronze, Grey, Green, Blue', 'Thickness: 4mm – 12mm', 'Mirror-Like Reflection', 'Privacy Enhancement', 'Energy Efficient'],
+        image: 'assets/rflvt.png'
     },
     { 
         name: 'Low-E Glass', 
         location: 'Glass Products',
-        type: 'Energy Efficient',
-        description: 'Low-Emissivity glass with a microscopically thin metallic oxide coating. Reflects infrared heat energy to keep interiors cooler in summer and warmer in winter.',
-        features: ['Reduces Heat Transfer', 'Maximum Light Transmission', 'Improved Thermal Insulation'],
-        image: 'assets/lowe.jpg'
+        type: 'Energy Efficient – Customized',
+        description: 'Low-Emissivity glass with a thin metallic oxide coating to reduce heat transfer while maintaining light transmission. Available thickness: 4mm to 10mm.',
+        features: ['Thickness: 4mm – 10mm', 'Reduces Heat Transfer', 'Maximum Light Transmission', 'Improved Thermal Insulation'],
+        image: 'assets/lowee.png'
     },
     { 
         name: 'Tempered Glass', 
         location: 'Glass Products',
-        type: 'Safety Glass',
-        description: 'Heat-treated safety glass, up to five times stronger than ordinary glass. Shatters into small, blunt fragments when broken, reducing injury risk.',
-        features: ['5x Stronger than Standard Glass', 'High Impact Resistance', 'Safety Fragmentation'],
+        type: 'Safety Glass – Customized',
+        description: 'Heat-treated glass up to five times stronger than ordinary glass. Ideal for windows, doors, and roofs. Can be clear, tinted, or frosted.',
+        features: ['Thickness: 4mm – 19mm', '5x Stronger than Standard Glass', 'High Impact Resistance', 'Suitable for Windows, Doors, and Roofs', 'Safety Fragmentation'],
         image: 'assets/temperedglass.jpg'
     },
     { 
         name: 'Decorative Glass', 
         location: 'Glass Products',
-        type: 'Aesthetic',
-        description: 'Glass with various treatments, textures, patterns, or colors (Frosted, Etched, Fluted, Fused). Combines functionality with aesthetic design for interiors and facades.',
-        features: ['Custom Patterns', 'Artistic Designs', 'Privacy and Light Diffusion'],
-        image: 'assets/curve.png'
+        type: 'Aesthetic – Customized',
+        description: 'Decorative glass with treatments such as frosted, acid-etched, fluted, and fused finishes. Combines privacy with style. Available in colors and thickness from 6mm to 12mm.',
+        features: ['Thickness: 6mm – 12mm', 'Frosted / Etched / Fused Options', 'Custom Colors', 'Can Be Tempered and Laminated', 'Privacy and Light Diffusion'],
+        image: 'assets/dcrtv.png'
     },
     { 
         name: 'Laminated Glass', 
         location: 'Glass Products',
-        type: 'Safety & Security',
-        description: 'Two or more sheets of glass bonded with a PVB/EVA interlayer. Remains intact when broken, offering excellent safety, security, sound insulation, and 99% UV protection.',
-        features: ['Remains Intact When Broken', 'Excellent Sound Insulation', '99% UV Protection'],
+        type: 'Safety & Security – Customized',
+        description: 'Two or more glass sheets bonded with PVB or EVA interlayers. Remains intact when broken. Used for safety, sound insulation, and bullet resistance. Thickness: 4mm to 20mm.',
+        features: ['Thickness: 4mm – 20mm', 'Remains Intact When Broken', 'Excellent Sound Insulation', '99% UV Protection', 'Can Be Tempered or Bulletproof'],
         image: 'assets/leminated.jpg'
     },
     { 
         name: 'Bullet Proof Glass', 
         location: 'Glass Products',
-        type: 'Ballistic Security',
-        description: 'Multi-layered system designed to resist the impact of bullets and projectiles. Classified by protection levels (B1 to B7) to meet international ballistic standards.',
-        features: ['Ballistic Resistance (B1-B7)', 'High Optical Clarity', 'Security Glazing'],
+        type: 'Ballistic Security – Customized',
+        description: 'Multi-layer laminated glass system designed to resist bullets and projectiles. Certified protection levels from B1 to B7, with thickness between 20mm and 100mm.',
+        features: ['Thickness: 20mm – 100mm', 'Ballistic Resistance (B1–B7)', 'High Optical Clarity', 'Certified Safety Glass'],
         image: 'assets/bulletproof.png'
     },
     { 
         name: 'Fire Rated Glass', 
         location: 'Glass Products',
-        type: 'Safety',
-        description: 'Engineered to resist the passage of fire, heat, and smoke for a specified period (30 to 120 minutes). Essential for fire doors, partitions, and stairwells.',
-        features: ['Fire Resistance (EI30-EI120)', 'Heat and Smoke Barrier', 'Certified Safety Solution'],
+        type: 'Safety – Customized',
+        description: 'Glass engineered to resist the passage of fire, heat, and smoke for 30 to 120 minutes. EI and E classified, available from 10mm to 60mm thickness.',
+        features: ['Thickness: 10mm – 60mm', 'Fire Ratings: EI & E Certified', 'Heat and Smoke Barrier', 'Certified Safety Solution'],
         image: 'assets/fire.png'
     },
     { 
         name: 'Curved Glass', 
         location: 'Glass Products',
-        type: 'Architectural',
-        description: 'Architectural glass thermally or mechanically shaped to create a gentle or pronounced curve. Used for unique design elements, facades, and interiors.',
-        features: ['Unique Architectural Shapes', 'Thermal or Mechanical Shaping', 'Design Flexibility'],
+        type: 'Architectural – Customized',
+        description: 'Architectural curved glass thermally or mechanically shaped. Suitable for facades, skylights, and furniture. Can be laminated or tempered, with thickness from 6mm to 12mm.',
+        features: ['Thickness: 6mm – 12mm', 'Tempered or Laminated', 'Architectural Flexibility', 'Custom Curved Shapes'],
         image: 'assets/curves.png'
+    },
+    {
+        name: 'Glass Railing System',
+        location: 'Glass Products',
+        type: 'Balustrade – Customized',
+        description: 'Modern frameless glass railing system designed for balconies, terraces, and stairs. Provides transparency, safety, and elegance.',
+        features: [
+            'Glass Infill: 17.5mm / 21.5mm',
+            'Installation: Floor Mounted',
+            'Section Height: 100mm',
+            'Section Width: 60mm',
+            'Water Drainage: Available',
+            'High Wind Load Resistance',
+            'Tempered & Laminated Glass Options'
+        ],
+        image: 'assets/railing.png'
     },
     // Aluminum and Steel Products
     { 
         name: 'Curtain Wall Systems', 
         location: 'Aluminum Products',
-        type: 'Facade',
-        description: 'Advanced aluminum facade systems including Stick and Unitized systems. Provides structural integrity, weather resistance, and thermal performance for large buildings.',
-        features: ['Stick systems', 'Unitized systems'],
+        type: 'Facade – Customized',
+        description: 'Advanced aluminum facade systems including Stick and Unitized configurations. Offers durability, insulation, and aesthetic appeal.',
+        features: ['Stick Systems', 'Unitized Systems', 'Thermal and Acoustic Insulation'],
         image: 'assets/curtain.jpg'
     },
     { 
         name: 'Window Systems', 
         location: 'Aluminum Products',
-        type: 'Openings',
-        description: 'Comprehensive range of aluminum window solutions: Casement, Sliding, Tilt & Turn, and Minimalist systems, offering superior insulation and operation.',
-        features: ['Casement windows', 'Sliding windows', 'Tilt & turn windows', 'Minimalist System'],
+        type: 'Openings – Customized',
+        description: 'Casement, Sliding, Tilt & Turn, and Minimalist window systems with aluminum minimalist frames. Available with soundproof and bulletproof options.',
+        features: ['Casement / Sliding / Tilt & Turn', 'Soundproof Options', 'Bulletproof Configurations', 'Aluminum Minimalist Frame'],
         image: 'assets/window.jpg'
     },
     { 
         name: 'Door Systems', 
         location: 'Aluminum Products',
-        type: 'Openings',
-        description: 'Aluminum door solutions including Swing, Sliding, Automatic, and Minimalist doors, designed for high traffic and aesthetic appeal.',
-        features: ['Swing doors', 'Sliding doors', 'Automatic doors', 'Minimalist doors'],
-        image: 'assets/siding.jpg'
+        type: 'Openings – Customized',
+        description: 'Swing, Sliding, Automatic, and Minimalist aluminum door systems. Available in bulletproof, fire-rated, and soundproof variants.',
+        features: ['Swing / Sliding / Automatic', 'Bulletproof & Fire-Rated Options', 'Aluminum Minimalist Frame', 'Modern Aesthetic Design'],
+        image: 'assets/doorss.png'
+    },
+    { 
+        name: 'Railing aluminum', 
+        location: 'Aluminum Products',
+        type: 'Safety – Customized',
+        description: 'Railing glass systems combining tempered laminated glass with stainless steel or aluminum bases. Offers strength, transparency, and safety.',
+        features: ['Thickness: 12mm – 21mm', 'Tempered & Laminated', 'Stainless or Aluminum Base', 'Elegant Design'],
+        image: 'assets/railing.png'
     },
     { 
         name: 'Partition & Interior Systems', 
         location: 'Aluminum Products',
-        type: 'Interior',
-        description: 'Custom aluminum and glass systems for interior partitioning, creating modern and flexible office or residential spaces.',
-        features: ['Glass Partitions', 'Aluminum Frames', 'Flexible Layouts'],
-        image: 'assets/image-006.png'
+        type: 'Interior – Customized',
+        description: 'Custom aluminum and glass systems for modern partitioning. Includes soundproof, minimalist, and decorative finishes.',
+        features: ['Glass Partitions', 'Minimalist Aluminum Frames', 'Flexible Layouts', 'Custom Finishes'],
+        image: 'assets/prt.png'
     },
     { 
         name: 'Roofing & Skylight Systems', 
         location: 'Aluminum Products',
-        type: 'Overhead',
-        description: 'Durable and weather-resistant aluminum systems for roofing and skylights, providing natural light and structural integrity.',
-        features: ['Weather-Resistant', 'Natural Light', 'Structural Integrity'],
+        type: 'Overhead – Customized',
+        description: 'Aluminum and steel structures for skylights and roofs. Designed for strength, safety, and natural light optimization.',
+        features: ['Aluminum & Steel Structure', 'Bulletproof & Soundproof Options', 'Weather Resistance'],
         image: 'assets/sky.jpg'
     },
     { 
         name: 'Specialized Aluminum Systems', 
         location: 'Aluminum Products',
-        type: 'Specialty',
-        description: 'Advanced aluminum solutions including sliding, folding, and bi-folding systems, shading devices, louvers, and structural glazing.',
-        features: ['Sliding, folding, and bi-folding systems', 'Shading devices and louvers', 'Structural glazing systems', 'Folding Aluminum system', '5 rails aluminum system'],
-        image: 'assets/image-006.png'
-    },
-    { 
-        name: 'Stainless Steel Work', 
-        location: 'Steel Products',
-        type: 'Metal Fabrication',
-        description: 'Custom fabrication of stainless steel elements: Handrails, balustrades, staircases, doors, and decorative cladding for high-end interior and exterior use.',
-        features: ['Handrails, balustrades, and staircases', 'Doors, frames, and façades', 'Cladding, canopies, and decorative elements'],
-        image: 'assets/3d_asset_2.png'
-    },
-    { 
-        name: 'Steel Works', 
-        location: 'Steel Products',
-        type: 'Metal Fabrication',
-        description: 'Comprehensive steel fabrication services for structural and architectural applications.',
-        features: ['Structural frameworks', 'Doors, gates, and window frames', 'Handrails, staircases, and balustrades', 'Cladding, canopies, and metal partitions', 'Industrial equipment and support structures'],
-        image: 'assets/3d_asset_2.png'
+        type: 'Specialty – Customized',
+        description: 'Specialized systems offering high-end performance and sleek aesthetics, including advanced kinetic and minimal façade technologies.',
+        features: [
+            'Sliding / Folding / Bi-Folding',
+            '5 Rails Aluminum System',
+            'Lift and Slide',
+            'Minimal Sliding System',
+            'Pivot Aluminum System',
+            'Kinetic Façade Horizontal Independent Pivot Shading System',
+            'Kinetic Façade Horizontal Multiple Pivot Shading System',
+            'Minimal Curtain Wall'
+        ],
+        image: 'assets/spcl.jpg'
     },
     { 
         name: 'ACP Works', 
         location: 'Aluminum Products',
-        type: 'Cladding',
-        description: 'Exterior cladding and façades using Aluminum Composite Panels (ACP) for commercial and residential buildings.',
-        features: ['Exterior cladding and façades', 'Interior wall panels and partitions', 'Signage, canopies, and false ceilings', 'Corporate branding and decorative features'],
-        image: 'assets/image-006.png'
+        type: 'Cladding – Customized',
+        description: 'ACP cladding for interior and exterior use. Includes Fire Rated (FR A2) and Non-Fire Rated certified panels, installed on stainless steel frames.',
+        features: ['Fire Rated ACP FR A2', 'Non-Fire Rated Certified Panels', 'Stainless Steel Subframe', 'Architectural Finishes'],
+        image: 'assets/acp.png'
+    },
+    { 
+        name: 'Stainless Steel Work', 
+        location: 'Steel Products',
+        type: 'Metal Fabrication – Customized',
+        description: 'Custom stainless steel fabrication including handrails, staircases, and doors. Available in fire-rated and bulletproof versions.',
+        features: ['Fire-Rated Steel Options', 'Bulletproof Steel Available', 'Decorative & Structural Fabrication'],
+        image: 'assets/stnls.jpg'
+    },
+    { 
+        name: 'Steel Works', 
+        location: 'Steel Products',
+        type: 'Metal Fabrication – Customized',
+        description: 'Full steel fabrication for architectural and industrial projects. Includes fire-rated, bulletproof, and structural systems.',
+        features: ['Fire-Rated & Bulletproof Steel', 'Industrial Frameworks', 'Decorative & Structural Components'],
+        image: 'assets/STEELL.jpg'
     }
 ];
 
 // Projects Data
 const projects = [
-    { 
-        name: 'Presidential Palace, Baabda', 
-        location: 'Baabda, Lebanon',
-        type: 'Government Building',
-        description: 'A prestigious project featuring state-of-the-art aluminum and glass facades for the Presidential Palace.',
-        features: ['Curtain Walls', 'Security Glass', 'Custom Aluminum Frames'],
-        image: 'assets/pres.png'
-    },
-    { 
-        name: 'Porte Emilio Resort & Hotel, Kaslik', 
-        location: 'Kaslik, Lebanon',
-        type: 'Hospitality',
-        description: 'Luxury resort with expansive glass structures and modern aluminum installations.',
-        features: ['Floor-to-Ceiling Glass', 'Frameless Systems', 'Pool Enclosures'],
-        image: 'assets/PORTEMILIO.jpg'
-    },
-    { 
-        name: 'Samaya Resort, Kaslik', 
-        location: 'Kaslik, Lebanon',
-        type: 'Hospitality',
-        description: 'High-end resort featuring elegant glass and aluminum architectural elements.',
-        features: ['Skylights', 'Glass Balustrades', 'Aluminum Cladding'],
-        image: 'assets/samaya.png'
-    },
-    { 
-        name: 'Camelot Hotel, Maamaltein', 
-        location: 'Maamaltein, Lebanon',
-        type: 'Hospitality',
-        description: 'Boutique hotel with sophisticated glass facades and custom aluminum work.',
-        features: ['Custom Windows', 'Glass Doors', 'Decorative Panels'],
-        image: 'assets/camilothotel.png'
-    },
-    { 
-        name: 'Mirza Buildings, Ballouneh', 
-        location: 'Ballouneh, Lebanon',
-        type: 'Commercial',
-        description: 'Modern commercial complex with innovative glass and aluminum solutions.',
-        features: ['Structural Glazing', 'Aluminum Composite Panels', 'Energy-Efficient Glass'],
-        image: 'assets/mirza.jpg'
-    },
-    { 
-        name: 'Tabarja Beach Resort, Tabarja', 
-        location: 'Tabarja, Lebanon',
-        type: 'Hospitality',
-        description: 'Beachfront resort with stunning glass installations and weather-resistant aluminum.',
-        features: ['Marine-Grade Aluminum', 'Tempered Glass', 'Retractable Systems'],
-        image: 'assets/tbrja.jpg'
-    },
-    { 
-        name: 'Albustan Hotel, Broumana', 
-        location: 'Broumana, Lebanon',
-        type: 'Hospitality',
-        description: 'Mountain hotel featuring panoramic glass walls and premium aluminum finishes.',
-        features: ['Panoramic Windows', 'Thermal Glass', 'Powder-Coated Aluminum'],
-        image: 'assets/al bustan.jpg'
-    },
-    { 
-        name: 'Vary Foods Sarl, Awkar', 
-        location: 'Awkar, Lebanon',
-        type: 'Industrial',
-        description: 'Food processing facility with specialized glass and aluminum installations.',
-        features: ['Hygienic Glass Partitions', 'Industrial Doors', 'Aluminum Frames'],
-        image: 'assets/varyfood.jpg'
-    },
-    { 
-        name: 'Salon Rita Tamer, Naccache', 
-        location: 'Naccache, Lebanon',
-        type: 'Commercial',
-        description: 'Upscale salon with elegant glass and mirror installations.',
-        features: ['Decorative Mirrors', 'Glass Partitions', 'Custom Aluminum Fixtures'],
-        image: 'assets/salonrita.jpg'
-    },
-    { 
-        name: 'Al Sharq, Kuwait', 
-        location: 'Kuwait',
-        type: 'International',
-        description: 'International project showcasing our expertise in aluminum and glass systems.',
-        features: ['Desert-Grade Materials', 'UV-Resistant Glass', 'Aluminum Curtain Walls'],
-        image: 'assets/al sharq.png'
-    },
-    { 
-        name: 'Painting School, Adma', 
-        location: 'Adma, Lebanon',
-        type: 'Educational',
-        description: 'Art school with natural light-optimized glass installations.',
-        features: ['North-Facing Skylights', 'Acoustic Glass', 'Aluminum Frames'],
-        image: 'assets/paaintingschol.jpg'
-    },
-    { 
-        name: 'Beirut Garden, Downtown', 
-        location: 'Downtown Beirut, Lebanon',
-        type: 'Commercial',
-        description: 'Urban garden complex with modern glass and aluminum architecture.',
-        features: ['Glass Atriums', 'Aluminum Pergolas', 'Decorative Glass'],
-        image: 'assets/gardendt.jpg'
-    },
-    { 
-        name: 'Sawary Resort, Batroun', 
-        location: 'Batroun, Lebanon',
-        type: 'Hospitality',
-        description: 'Coastal resort featuring innovative glass and aluminum solutions.',
-        features: ['Sea-View Glass Walls', 'Corrosion-Resistant Aluminum', 'Sliding Systems'],
-        image: 'assets/sawaya.jpg'
-    },
-    { 
-        name: 'MG Showroom, Zalka', 
-        location: 'Zalka, Lebanon',
-        type: 'Commercial',
-        description: 'Automotive showroom with expansive glass facades.',
-        features: ['Structural Glass', 'Aluminum Storefront', 'Display Windows'],
-        image: 'assets/mg.jpg'
-    },
-    { 
-        name: 'Laubeirut, Hamra', 
-        location: 'Hamra, Beirut, Lebanon',
-        type: 'Commercial',
-        description: 'Urban commercial space with contemporary glass and aluminum design.',
-        features: ['Glass Storefronts', 'Aluminum Cladding', 'Automatic Doors'],
-        image: 'assets/lauuu.png'
-    },
-    { 
-        name: 'Casino Du Liban, Tabarja', 
-        location: 'Tabarja, Lebanon',
-        type: 'Entertainment',
-        description: 'Iconic entertainment venue with spectacular glass and aluminum installations.',
-        features: ['Decorative Glass', 'Aluminum Facades', 'Custom Metalwork'],
-        image: 'assets/casino.jpg'
-    },
-    { 
-        name: 'Hopital Saint Louis, Jounieh', 
-        location: 'Jounieh, Lebanon',
-        type: 'Healthcare',
-        description: 'Medical facility with specialized glass and aluminum systems.',
-        features: ['Fire-Rated Glass', 'Hygienic Surfaces', 'Aluminum Partitions'],
-        image: 'assets/hosp.jpg'
-    },
-    { 
-        name: 'Kempenski Hotel, Congo', 
-        location: 'Congo',
-        type: 'International',
-        description: 'Luxury hotel project in Africa showcasing our international capabilities.',
-        features: ['Tropical-Grade Materials', 'Hurricane-Resistant Glass', 'Premium Aluminum'],
-        image: 'assets/kampinski.jpg'
-    },
-    { 
-        name: 'Phonecia Intercontinental, Beirut', 
-        location: 'Beirut, Lebanon',
-        type: 'Hospitality',
-        description: 'Five-star hotel with premium glass and aluminum installations.',
-        features: ['Luxury Finishes', 'Soundproof Glass', 'Anodized Aluminum'],
-        image: 'assets/phonecia.jpg'
-    },
-    { 
-        name: 'Elie Saab Boutique, Downtown', 
-        location: 'Downtown Beirut, Lebanon',
-        type: 'Retail',
-        description: 'High-fashion boutique with elegant glass and mirror work.',
-        features: ['Display Glass', 'Decorative Mirrors', 'Luxury Aluminum Frames'],
-        image: 'assets/eluesaab.jpg'
-    },
-    { 
-        name: 'Elie Saab Home, Halat', 
-        location: 'Halat, Lebanon',
-        type: 'Residential',
-        description: 'Designer residence with custom glass and aluminum features.',
-        features: ['Floor-to-Ceiling Windows', 'Custom Mirrors', 'Architectural Aluminum'],
-        image: 'assets/eluesaab.jpg'
-    },
-    { 
-        name: 'Carre Parfait, Adonis', 
-        location: 'Adonis, Lebanon',
-        type: 'Commercial',
-        description: 'Shopping center with modern glass and aluminum architecture.',
-        features: ['Glass Storefronts', 'Aluminum Cladding', 'Skylights'],
-        image: 'assets/carre.jpg'
-    },
-    { 
-        name: 'NC Jewelry, Ashrafieh Sassine', 
-        location: 'Ashrafieh Sassine, Beirut, Lebanon',
-        type: 'Retail',
-        description: 'Luxury jewelry store with secure glass and premium aluminum finishes.',
-        features: ['Security Glass', 'Display Cases', 'Polished Aluminum'],
-        image: 'assets/nc.png'
-    }
+    { name: 'Presidential Palace, Baabda', location: 'Baabda, Lebanon', image: 'assets/pres.png' },
+    { name: 'Porte Emilio Resort & Hotel, Kaslik', location: 'Kaslik, Lebanon', image: 'assets/PORTEMILIO.jpg' },
+    { name: 'Samaya Resort, Kaslik', location: 'Kaslik, Lebanon', image: 'assets/samaya.png' },
+    { name: 'Camelot Hotel, Maamaltein', location: 'Maamaltein, Lebanon', image: 'assets/camilothotel.png' },
+    { name: 'Mirza Buildings, Ballouneh', location: 'Ballouneh, Lebanon', image: 'assets/mirza.jpg' },
+    { name: 'Tabarja Beach Resort, Tabarja', location: 'Tabarja, Lebanon', image: 'assets/tbrja.jpg' },
+    { name: 'Albustan Hotel, Broumana', location: 'Broumana, Lebanon', image: 'assets/al bustan.jpg' },
+    { name: 'Vary Foods Sarl, Awkar', location: 'Awkar, Lebanon', image: 'assets/varyfood.jpg' },
+    { name: 'Salon Rita Tamer, Naccache', location: 'Naccache, Lebanon', image: 'assets/salonrita.jpg' },
+    { name: 'Al Sharq, Kuwait', location: 'Kuwait', image: 'assets/al sharq.png' },
+    { name: 'Painting School, Adma', location: 'Adma, Lebanon', image: 'assets/paaintingschol.jpg' },
+    { name: 'Beirut Garden, Downtown', location: 'Downtown Beirut, Lebanon', image: 'assets/gardendt.jpg' },
+    { name: 'Sawary Resort, Batroun', location: 'Batroun, Lebanon', image: 'assets/sawaya.jpg' },
+    { name: 'MG Showroom, Zalka', location: 'Zalka, Lebanon', image: 'assets/mg.jpg' },
+    { name: 'Lau Beirut, Hamra', location: 'Hamra, Beirut, Lebanon', image: 'assets/lauuu.png' },
+    { name: 'Casino Du Liban, Tabarja', location: 'Tabarja, Lebanon', image: 'assets/casino.jpg' },
+    { name: 'Hopital Saint Louis, Jounieh', location: 'Jounieh, Lebanon', image: 'assets/hosp.jpg' },
+    { name: 'Kempenski Hotel, Congo', location: 'Congo', image: 'assets/kampinski.jpg' },
+    { name: 'Phonecia Intercontinental, Beirut', location: 'Beirut, Lebanon', image: 'assets/phonecia.jpg' },
+    { name: 'Elie Saab Boutique, Downtown', location: 'Downtown Beirut, Lebanon', image: 'assets/eluesaab.jpg' },
+    { name: 'Elie Saab Home, Halat', location: 'Halat, Lebanon', image: 'assets/eluesaab.jpg' },
+    { name: 'Carre Parfait, Adonis', location: 'Adonis, Lebanon', image: 'assets/carre.jpg' },
+    { name: 'NC Jewelry, Ashrafieh Sassine', location: 'Ashrafieh Sassine, Beirut, Lebanon', image: 'assets/nc.png' },
+    { name: 'Kfoury apartment,  bayada', location: ' bayada, Lebanon', image: 'assets/kfouryy.jpg' },
+    { name: 'George Hakim Jewelery, Downtown', location: ' Downtown, Lebanon', image: 'assets/georgehakim.jpg' }
 ];
 
 // Progress Bar
@@ -399,13 +273,11 @@ function updateProgressBar() {
     const scrollPercentage = (scrollTop / scrollHeight) * 100;
     document.getElementById('progress-bar').style.width = scrollPercentage + '%';
 }
-
 window.addEventListener('scroll', updateProgressBar);
 
 // Mobile Menu Toggle
 const menuToggle = document.getElementById('menu-toggle');
 const navMenu = document.getElementById('nav-menu');
-
 menuToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
@@ -422,15 +294,12 @@ function scrollToSection(sectionId) {
 // Navigation Active State
 const navLinks = document.querySelectorAll('.nav-link');
 const sections = document.querySelectorAll('.section, .hero-section');
-
 function updateActiveNav() {
     const scrollPosition = window.scrollY + 100;
-
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.offsetHeight;
         const sectionId = section.getAttribute('id');
-
         if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
             navLinks.forEach(link => {
                 link.classList.remove('active');
@@ -441,7 +310,6 @@ function updateActiveNav() {
         }
     });
 }
-
 window.addEventListener('scroll', updateActiveNav);
 
 // Navigation Click Handlers
@@ -456,14 +324,12 @@ navLinks.forEach(link => {
 // Load Products
 function loadProducts() {
     const productsGrid = document.getElementById('products-grid');
-    productsGrid.innerHTML = ''; // Clear existing content
+    productsGrid.innerHTML = '';
 
-    // Group products by location (Glass Products, Aluminum Products, Steel Products)
     const glassProducts = products.filter(p => p.location === 'Glass Products');
     const aluminumProducts = products.filter(p => p.location === 'Aluminum Products');
     const steelProducts = products.filter(p => p.location === 'Steel Products');
 
-    // Function to create a category header
     const createCategoryHeader = (title) => {
         const header = document.createElement('h3');
         header.className = 'category-header';
@@ -471,12 +337,10 @@ function loadProducts() {
         productsGrid.appendChild(header);
     };
 
-    // Function to create a product card
     const createProductCard = (product) => {
         const productCard = document.createElement('div');
         productCard.className = 'project-card';
         productCard.style.setProperty('--bg-image', `url('${product.image}')`);
-        
         productCard.innerHTML = `
             <div class="project-header">
                 <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -494,24 +358,20 @@ function loadProducts() {
                 <p class="project-type">${product.type}</p>
             </div>
         `;
-        
         productCard.addEventListener('click', () => openProjectModal(product));
         return productCard;
     };
 
-    // 1. Our Glasswork
     createCategoryHeader('Our Glasswork');
     glassProducts.forEach(product => {
         productsGrid.appendChild(createProductCard(product));
     });
 
-    // 2. Our Aluminum
     createCategoryHeader('Our Aluminum');
     aluminumProducts.forEach(product => {
         productsGrid.appendChild(createProductCard(product));
     });
 
-    // 3. Our Steelwork (Optional, if any)
     if (steelProducts.length > 0) {
         createCategoryHeader('Our Steelwork');
         steelProducts.forEach(product => {
@@ -523,12 +383,10 @@ function loadProducts() {
 // Load Projects
 function loadProjects() {
     const projectsGrid = document.getElementById('projects-grid');
-    
-    projects.forEach((project, index) => {
+    projects.forEach(project => {
         const projectCard = document.createElement('div');
         projectCard.className = 'project-card';
         projectCard.style.setProperty('--bg-image', `url('${project.image}')`);
-        
         projectCard.innerHTML = `
             <div class="project-header">
                 <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -543,10 +401,9 @@ function loadProjects() {
             </div>
             <div class="project-content">
                 <p class="project-name">${project.name}</p>
-                <p class="project-type">${project.type}</p>
+                <p class="project-type">${project.type || ''}</p>
             </div>
         `;
-        
         projectCard.addEventListener('click', () => openProjectModal(project));
         projectsGrid.appendChild(projectCard);
     });
@@ -555,41 +412,34 @@ function loadProjects() {
 // Project Modal
 const modal = document.getElementById('project-modal');
 const modalClose = document.getElementById('modal-close');
-
 function openProjectModal(project) {
     document.getElementById('modal-image').src = project.image;
     document.getElementById('modal-title').textContent = project.name;
-    document.getElementById('modal-location').textContent = `${project.location} • ${project.type}`;
-    document.getElementById('modal-description').textContent = project.description;
-    
+    document.getElementById('modal-location').textContent = `${project.location} • ${project.type || ''}`;
+    document.getElementById('modal-description').textContent = project.description || '';
     const featuresContainer = document.getElementById('modal-features');
     featuresContainer.innerHTML = '';
-    
-    project.features.forEach(feature => {
-        const featureDiv = document.createElement('div');
-        featureDiv.className = 'modal-feature';
-        featureDiv.textContent = feature;
-        featuresContainer.appendChild(featureDiv);
-    });
-    
+    if (project.features) {
+        project.features.forEach(feature => {
+            const featureDiv = document.createElement('div');
+            featureDiv.className = 'modal-feature';
+            featureDiv.textContent = feature;
+            featuresContainer.appendChild(featureDiv);
+        });
+    }
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 }
-
 function closeProjectModal() {
     modal.classList.remove('active');
     document.body.style.overflow = 'auto';
 }
-
 modalClose.addEventListener('click', closeProjectModal);
-
 modal.addEventListener('click', (e) => {
     if (e.target === modal) {
         closeProjectModal();
     }
 });
-
-// Escape key to close modal
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('active')) {
         closeProjectModal();
@@ -597,11 +447,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Scroll Animations
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
-};
-
+const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -100px 0px' };
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -614,7 +460,6 @@ const observer = new IntersectionObserver((entries) => {
 // Observe elements for animation
 document.addEventListener('DOMContentLoaded', () => {
     const animatedElements = document.querySelectorAll('.about-grid, .quality-item, .strategy-card, .production-category, .partners-grid, .contact-card');
-    
     animatedElements.forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
@@ -625,9 +470,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    loadProducts(); // Load the new products section
+    loadProducts();
     loadProjects();
     updateProgressBar();
     updateActiveNav();
 });
-
