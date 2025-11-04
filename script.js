@@ -5,8 +5,8 @@ const products = [
         name: ' Mirror', 
         location: 'Glass Products',
         type: 'Decorative – Customized',
-        description: 'High-quality mirrors available in clear and various tinted colors (bronze, grey, clear). Used for interior design, vanity areas, and decorative wall features. Available thickness: 4mm to 12mm.',
-        features: ['Colors: Bronze, Grey, Clear', 'Thickness: 4mm – 12mm', 'High Reflectivity', 'Custom Sizing', 'Can Be Tempered or Laminated'],
+        description: 'High-quality mirrors available in clear and various tinted colors (bronze, grey, clear, blue,pink , gold). Used for interior design, vanity areas, and decorative wall features. Available thickness: 4mm to 12mm.',
+        features: ['Colors: Bronze, Grey, Clear', 'Thickness: 4mm – 8mm', 'High Reflectivity', 'Custom Sizing'],
         image: 'assets/mirrr.jpg'
     },
     { 
@@ -102,7 +102,7 @@ const products = [
         location: 'Glass Products',
         type: 'Safety & Security – Customized',
         description: 'Two or more glass sheets bonded with PVB or EVA interlayers. Remains intact when broken. Used for safety, sound insulation, and bullet resistance. Thickness: 4mm to 20mm.',
-        features: ['Thickness: 4mm – 20mm', 'Remains Intact When Broken', 'Excellent Sound Insulation', '99% UV Protection', 'Can Be Tempered or Bulletproof'],
+        features: ['Thickness: 4mm – 20mm', 'Remains Intact When Broken', 'Excellent Sound Insulation', '99% UV Protection', 'Can Be Tempered or Bulletproof', 'customized thicknesses'],
         image: 'assets/leminated.jpg'
     },
     { 
@@ -135,12 +135,10 @@ const products = [
         type: 'Balustrade – Customized',
         description: 'Modern frameless glass railing system designed for balconies, terraces, and stairs. Provides transparency, safety, and elegance.',
         features: [
-            'Glass Infill: 17.5mm / 21.5mm',
-            'Installation: Floor Mounted',
-            'Section Height: 100mm',
-            'Section Width: 60mm',
+            "Installation: steel and stainless steel U chanel inbeded , Aluminum Profile , Stainless steel accessories ....",
             'Water Drainage: Available',
             'High Wind Load Resistance',
+            'Thickness: 6mm to 20mm',
             'Tempered & Laminated Glass Options'
         ],
         image: 'assets/railing.png'
@@ -168,7 +166,7 @@ const products = [
         type: 'Openings – Customized',
         description: 'Swing, Sliding, Automatic, and Minimalist aluminum door systems. Available in bulletproof, fire-rated, and soundproof variants.',
         features: ['Swing / Sliding / Automatic', 'Bulletproof & Fire-Rated Options', 'Aluminum Minimalist Frame', 'Modern Aesthetic Design'],
-        image: 'assets/doorss.png'
+        image: 'assets/neww.jpg'
     },
     { 
         name: 'Railing aluminum', 
@@ -176,7 +174,7 @@ const products = [
         type: 'Safety – Customized',
         description: 'Railing glass systems combining tempered laminated glass with stainless steel or aluminum bases. Offers strength, transparency, and safety.',
         features: ['Thickness: 12mm – 21mm', 'Tempered & Laminated', 'Stainless or Aluminum Base', 'Elegant Design'],
-        image: 'assets/railing.png'
+        image: 'assets/railll.jpg'
     },
     { 
         name: 'Partition & Interior Systems', 
@@ -263,7 +261,9 @@ const projects = [
     { name: 'Carre Parfait, Adonis', location: 'Adonis, Lebanon', image: 'assets/carre.jpg' },
     { name: 'NC Jewelry, Ashrafieh Sassine', location: 'Ashrafieh Sassine, Beirut, Lebanon', image: 'assets/nc.png' },
     { name: 'Kfoury apartment,  bayada', location: ' bayada, Lebanon', image: 'assets/kfouryy.jpg' },
-    { name: 'George Hakim Jewelery, Downtown', location: ' Downtown, Lebanon', image: 'assets/georgehakim.jpg' }
+    { name: 'George Hakim Jewelery, Downtown', location: ' Downtown, Lebanon', image: 'assets/georgehakim.jpg' },
+    { name: 'Baabda villa 3837', location: '  Baabda, Lebanon', image: 'assets/baabda.jpg' },
+    { name: 'Feytroun villa 4502', location: ' Feytroun , Lebanon', image: 'assets/feytroun vlla.jpg' },
 ];
 
 // Progress Bar
