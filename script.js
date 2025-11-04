@@ -23,7 +23,7 @@ const products = [
         type: 'Customization – Customized',
         description: 'High-resolution UV printing directly onto glass surfaces for custom graphics, logos, and photographic images. Provides durable, vibrant colors and smooth finishes with Italian stainless steel accessories.',
         features: ['High-Resolution Graphics', 'Durable UV-Resistant Colors', 'Custom Logos and Images', 'Italian Stainless Steel Accessories', 'Available in Custom Thickness'],
-        image: 'assets/uvvvv.png'
+        image: 'assets/Screenshot_1.png'
     },
     { 
         name: 'Shower Tray', 
